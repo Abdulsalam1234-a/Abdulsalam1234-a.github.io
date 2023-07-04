@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place to stay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo"><h1>Metabnb</h1></div>
+            <nav>
+                <ul class="nav-url">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="place.html">Place To Stay</a></li>
+                    <li><a href="nfts.html">NFTs</a></li>
+                    <li><a href="community.html">Community</a></li>
+                </ul>
+            </nav>
+            <button id="myBtn" class="btn connect">Connect Wallet</button>
+        </div>
+    </header>
+    <main>
+        <!-- Modal -->
+        <section class="modal" id="myModal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Connect Wallet</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>Choose your preferred wallet:</p>
+                    <p class="wallet-option">Metamask</p>
+                    <p class="wallet-option">WalletConnect</p>
+                </div>
+            </div>
+        </section>
+        <section id="category-list">
+            <div class="category-list">
+                <h2>Places</h2>
+                <div class="category flex">
+                    <ul class="myflex">
+                        <li><a href="">Castle</a></li>
+                        <li><a href="">Farm</a></li>
+                        <li><a href="">Beach</a></li>
+                        <li><a href="">Island</a></li>
+                    </ul>
+                    <form>
+                        <input name="category" list="category" class="search-input">
+                        <datalist id="category">
+                            <option value="Beach"></option>
+                            <option value="Farm"></option>
+                            <option value="Castle"></option>
+                            <option value="Island"></option>
+                        </datalist>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="next-adv">
+            <div class="adventures">
+                <article class="card">
+                    <div class="card-img">
+                        <img src="" alt="card">
+                    </div>
+                    <div class="adventure-details">
+                        <div class="flex">
+                            <p class="title">Desert King</p>
+                            <p class="price">1MBT per night</p>
+                        </div>
+                        <div class="flex">
+                            <p class="distance">2345kms away</p>
+                            <p class="period">available for 2 weeks stay</p>
+                        </div>
+                        <div class="stars"><p>*****</p></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <ul class="flex">
+                <li>
+                    <h3>Metabnb</h3>
+                    <div class="socials flex">
+                        <a href="">faceb</a>
+                        <a href="">insta</a>
+                        <a href="">twit</a>
+                    </div>
+                    
+                </li>
+                <li>
+                    <h4>Community</h4>
+                    <ul>
+                        <li>NFT</li>
+                        <li>Tokens</li>
+                        <li>Landlords</li>
+                        <li>Discord</li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h4>Places</h4>
+                    <ul>
+                        <li>Castle</li>
+                        <li>Farm</li>
+                        <li>Beach</li>
+                        <li>Learn more</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>About us</h4>
+                    <ul>
+                        <li>Road map</li>
+                        <li>Creators</li>
+                        <li>Carrer</li>
+                        <li>Contact us</li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="copyright">&copy; 2022 Metabnb</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
