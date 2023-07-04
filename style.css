@@ -179,8 +179,6 @@ header h1{
 .card .card-img {
     border-radius: 10px;
     width: 100%;
-    /* border: 1px solid grey; */
-    height: 300px;
 }
 
 .adventure-details {
